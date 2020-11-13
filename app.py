@@ -13,7 +13,7 @@ pf_path = './preprocess/wc_pf.csv'
 ff_path = './preprocess/wc_ff.csv'
 
 app = flask.Flask(__name__)
-app.config["DEBUG"] = True
+# app.config["DEBUG"] = True
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
@@ -172,4 +172,5 @@ def home():
     return 'Welcome to Web App'
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
