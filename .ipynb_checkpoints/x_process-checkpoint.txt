@@ -1,0 +1,9 @@
+Step by Step Process:
+
+1. create project, environment,
+2. install libraries: numpy, pandas, matplotlib, seaborn, jupyter, jupyterlab, notebook
+3. gather data
+4. preprocess data in proper formatting
+5. use this formatted data to write a new data.csv
+6. load this csv with dates
+7. look inside this data
